@@ -1,4 +1,4 @@
-$(function() {
+!(function() {
 
 	var _whichInput, _whichType
 
@@ -103,4 +103,9 @@ $(function() {
 		})
 
 	}
-})
+	
+	new Jkeyboard($('input[bank]'), 'bank')
+	new Jkeyboard($('input[phone]'), 'phone')
+	new Jkeyboard($('input[money]'), 'money')
+
+})()
