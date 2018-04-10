@@ -1,0 +1,13 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { width: 100%; margin: 0 auto; overflow-x: hidden; background: #fff; color:#333; font-size: 16px; font-family: 'PingFangSC-Regular', 'Microsoft Yahei','微软雅黑',Verdana,Arial,Helvetica,sans-serif; }
+td,th,caption { font-size: 16px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#fff; text-decoration:none; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { color: #333; outline: none; font: 16px 'PingFangSC-Regular', 'Microsoft Yahei','微软雅黑',Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html { overflow-x: hidden; }
+#Jkeyboard{ width: 100%; font-size: 16px; position: fixed; left: 0; bottom: 0; display: none; }
+#Jkeyboard li{ width: 33.33333%; height: 100px; background: #fff; line-height: 100px; text-align: center; box-sizing: border-box; border: 1px solid #e6e6e6; border-left: none; border-bottom: none; float: left; }
